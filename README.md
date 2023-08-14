@@ -1,9 +1,10 @@
 
 # Scalable and Safe Image Classification Model with AWS SageMaker, Lambda, and Step Functions
 
+ ## Overview
 As an MLE, the  goal is to ship a scalable and safe model. Once the model becomes available to other teams on-demand, it’s important that it can scale to meet demand, and that safeguards are in place to monitor and control for drift or degraded performance.
 In this project, I used AWS Sagemaker to build an image classification model that can tell bicycles apart from motorcycles. l deployed the model, and used AWS Lambda functions to build supporting services, and AWS Step Functions to compose the model and services into an event-driven application.
-#### Project Steps Overview
+#### Project Steps 
 #### Step 1: Data staging
 Extract the data from a hosting service
 Transform it into a usable shape and format
